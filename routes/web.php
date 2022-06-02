@@ -21,4 +21,4 @@ Route::get('/new', 'App\Http\Controllers\Customercontroller@controllerMethod');
 
 Route::any('{slug}', function(){
     return view('welcome');
-});
+}); 
